@@ -208,13 +208,16 @@ body {
 #footer {
     background-image: url(img/icon-twitter.svg), url(img/icon-facebook.svg), url(icon-itch.svg);
     background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position: center;
     max-width: 50px;
-     margin-left: auto;
-    margin-right: auto;
-    
-    
+    color: rgba(200,240,220,0.9);
+    display:flex;
+  
+
 }
 
+
+ 
 
 
 
