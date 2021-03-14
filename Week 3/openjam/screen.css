@@ -71,6 +71,7 @@ body {
 }
 
 #what h1 {
+    padding-top: 30px;
     text-align: center;
     padding: 25px 0;
     color: #347788;
@@ -92,6 +93,7 @@ body {
 #what img {
     max-width: 220px;
     width: 100%;
+    padding-bottom: 50px;
     
 }
 
@@ -112,22 +114,24 @@ body {
     text-align: center;
     padding: 25px 0;
     color: #347788;
+   
     
 }
 
 #where {
+  
     background-image: url(img/map.gif);
-    background-size: 1600px, 750px;
-    background-repeat: no-repeat;
-    background-position: center, top left;
-    
+    background-size: 1400px, auto;
+    padding-top: 25px;
+    padding-bottom: 290px;
+     background-position: center, top left;
     
 }
 
 #where h1 {
     text-align: center;
     color: #b48;
-    padding: 25px 0;
+ 
 }
 
 #where p {
@@ -138,9 +142,12 @@ body {
 }
 
 #when {
+    padding-top: 25px;
     background-color: #439998;
     background-image: url(img/wires.png);
-    background-size: auto;
+    background-size: 700px, auto;
+    background-repeat: repeat;
+    padding-bottom: 30px;
    
 }
 
@@ -172,9 +179,41 @@ body {
 }
 
 #who {
+    background-color: aliceblue;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+#who h1 {
+    text-align: center;
+    color: #347788;
     
 }
 
+#who p {
+
+    color:  #347788;
+    margin-left: auto;
+    margin-right: auto;
+     width: 100%;
+    max-width: 600px;
+    font-size: 20px;
+
+}
+
+#who p + p {
+    font-size: 15px;
+}
+
+#footer {
+    background-image: url(img/icon-twitter.svg), url(img/icon-facebook.svg), url(icon-itch.svg);
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    max-width: 50px;
+     margin-left: auto;
+    margin-right: auto;
+    
+    
+}
 
 
 
