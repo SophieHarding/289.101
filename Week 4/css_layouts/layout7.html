@@ -15,19 +15,70 @@
           outline: 1px solid black;
      }
         
-         #container {
+         #container1 {
+             display: grid;
+             grid-template-columns: 1fr 1fr 1fr;
            margin: auto;
          max-width: 800px;
      }
         
         #blue {
+            display: grid;
             background-color: blue;
+            grid-template-columns:30% 70% ;
+            grid-column: 1/4;
+            height: 50px;
+            padding: 20px;
             
         }
         
+        .yellow{
+            background-color: yellow; 
+            margin: 5px;
+        }
+        
+        #green {
+            background-color: lime;
+            grid-column: 1/4;
+            height:400px;
+        }
+        
+        #red {
+            background-color: red;
+            grid-template-columns: 30% 30% 30% ;
+            grid-column: 1/4;
+            height: 300px;
+            padding: 20px;
+        }
+        
+        .yellowred {
+            background-color: yellow;
+            margin:20px;
+            grid-column: 1/4;
+            height:50px;
+        }
+        
+        .yellowred2 {
+            background-color: yellow;
+            margin:20px;
+            height:200px;
+        }
     </style>
     
     <body>
+        
+        <div id="container1">
+          <div id="blue">
+            <div class="yellow"></div>
+              <div class="yellow"></div>
+              </div>
+          <div id="green"></div>
+          <div id="red">
+            <div class="yellowred"></div>
+              <div class="yellowred2"></div>
+            </div>
+            
+        </div>
     
     </body>
     
