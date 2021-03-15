@@ -114,7 +114,7 @@
         #red2 {
             display: grid;
             background-color: red;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: 70% 30%;
             grid-column: 1/4;
             height: 400px;
             padding: 20px;
@@ -124,15 +124,25 @@
             background-color: yellow;
             margin: 5px;
             grid-column: 1/5;
-            height: 35px;
+            height: 50px;
         }
         
         .redyellow2 {
             background-color: yellow;
             margin: 5px;
-            grid-column: 1/3;
-            height: 300;
+            height: 200;
+            grid-row: 2 / span 3;
         }
+        
+        .redyellow3 {
+            
+        background-color: yellow;
+            margin: 5px;
+            height:50px;
+            
+        }
+        
+        
         
     </style>
     
@@ -174,6 +184,7 @@
           <div id="red2">
              <div class="redyellow"></div>
               <div class="redyellow2"></div>
+              <div class="redyellow3"></div>
             </div>    
         </div>
     
