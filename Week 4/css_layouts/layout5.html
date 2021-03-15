@@ -16,33 +16,50 @@
      }
         
          #container {
+             display: grid;
+             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
            margin: auto;
          max-width: 800px;
      }
         #blue {
             display: grid;
            background-color: blue;
-            grid-template-columns; 25px;
+            grid-column: 1/6;
            height: 200px;
             padding:20px;
      }
         .yellowtop {
             background-color: yellow;
+            grid-column:5/6;
             margin: 20px;
         }
         
         #red {
             display: grid;
             background-color: red;
+            grid-column: 1/6;
             height:400px;
             
         }
         
-        .yellow {
+       
+        .red{
+           background-color: red;
+            height:400px;
+            grid-column: 2/6;
+        }
+        
+        .yellowmiddle {
+            background-color: yellow;
+            grid-column: 3/6;
+            margin: 20px;
             
         }
+        
         #green{
+            display: grid;
             background-color: lime;
+            grid-column:1/6;
             height:200px;
         }
         
@@ -55,9 +72,10 @@
              <div class="yellowtop"></div>
             </div>
             <div id="red">
-            
+             <div class="red"></div>
+                <div class="yellowmiddle"></div>
             </div>
-            <div id="green"></div>
+          <div id="green"></div>
         </div>
     </body>
     
