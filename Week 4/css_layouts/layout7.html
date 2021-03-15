@@ -44,8 +44,9 @@
         }
         
         #red {
+            display: grid;
             background-color: red;
-            grid-template-columns: 30% 30% 30% ;
+            grid-template-columns: repeat(3, 1fr);
             grid-column: 1/4;
             height: 300px;
             padding: 20px;
@@ -53,16 +54,86 @@
         
         .yellowred {
             background-color: yellow;
-            margin:20px;
-            grid-column: 1/4;
+            margin:5px;
+            grid-column: 1/5;
             height:50px;
         }
         
         .yellowred2 {
             background-color: yellow;
-            margin:20px;
+            margin:5px;
             height:200px;
         }
+        
+        #blue2{
+            display: grid;
+            background-color: blue;
+            grid-template-columns: repeat (4,1fr) ;
+            grid-column: 1/4;
+            height: 700px;
+            padding:20px;
+            
+        }
+        
+        .yellowblue {
+            background-color: yellow;
+            margin: 5px;
+            grid-column: 1/5;
+            height: 40px;
+        }
+        
+        .yellowblue2 {
+            background-color: yellow;
+            margin: 5px;
+            height: 200px;
+        }
+        
+        #green2 {
+            display: grid;
+            background-color: lime;
+            grid-template-columns: repeat(3,1fr);
+            grid-column: 1/4;
+            height: 500px;
+            padding: 20px;
+        }
+        
+        .yellowgreen {
+            background-color: yellow;
+            margin: 5px;
+            grid-column: 1/5;
+            height:50px;
+            
+        }
+        
+        .yellowgreen2 {
+             background-color: yellow;
+            margin:5px;
+            height:400px;
+        }
+        
+        #red2 {
+            display: grid;
+            background-color: red;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column: 1/4;
+            height: 400px;
+            padding: 20px;
+        }
+        
+        .redyellow {
+            background-color: yellow;
+            margin: 5px;
+            grid-column: 1/5;
+            height: 35px;
+        }
+        
+        .redyellow2 {
+            background-color: yellow;
+            margin: 5px;
+            grid-column: 1/3;
+            height: 300;
+        }
+        
     </style>
     
     <body>
@@ -76,8 +147,34 @@
           <div id="red">
             <div class="yellowred"></div>
               <div class="yellowred2"></div>
+              <div class="yellowred2"></div>
+              <div class="yellowred2"></div>
             </div>
-            
+          <div id="blue2">
+            <div class="yellowblue"></div>
+              <div class="yellowblue2"></div>
+              <div class="yellowblue2"></div>
+              <div class="yellowblue2"></div>
+              <div class="yellowblue2"></div>
+              <div class="yellowblue2"></div>
+              <div class="yellowblue2"></div>
+              <div class="yellowblue2"></div>
+              <div class="yellowblue2"></div>
+              <div class="yellowblue2"></div>
+              <div class="yellowblue2"></div>
+              <div class="yellowblue2"></div>
+              <div class="yellowblue2"></div>
+            </div>    
+          <div id="green2">
+              <div class="yellowgreen"></div>
+              <div class="yellowgreen2"></div>
+              <div class="yellowgreen2"></div>
+              <div class="yellowgreen2"></div>
+            </div>  
+          <div id="red2">
+             <div class="redyellow"></div>
+              <div class="redyellow2"></div>
+            </div>    
         </div>
     
     </body>
