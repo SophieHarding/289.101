@@ -35,23 +35,29 @@
         }
         
         #red {
-            display: grid;
             background-color: red;
-            grid-column: 1/6;
             height:400px;
+            grid-column: 1/6;
+            display: grid;
+        
+            
+            grid-template-columns:1fr 1fr 1fr ;
+            grid-template-rows:1fr 1fr; 
+            
             
         }
         
-       
-        .red{
+       .red{
            background-color: red;
             height:400px;
             grid-column: 2/6;
         }
         
+        
         .yellowmiddle {
             background-color: yellow;
-            grid-column: 3/6;
+            grid-column: 2/3;
+            grid-row: 1/2;
             margin: 20px;
             
         }
@@ -73,7 +79,7 @@
             </div>
             <div id="red">
              <div class="red"></div>
-                <div class="yellowmiddle"></div>
+            <div class="yellowmiddle"></div>
             </div>
           <div id="green"></div>
         </div>
