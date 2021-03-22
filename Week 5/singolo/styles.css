@@ -78,8 +78,20 @@ margin-top: 10px;
 text-align: center;
 }
 
+#Services {
+    display: grid;
+    grid-template-columns: repeat(3 1fr) ;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+    background-color: #ffffff;
+    
+}
 
 
+.h1 {
+    color: #666d89;
+  
+    
+}
 
 
 
