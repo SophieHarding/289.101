@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
 
 
-* {
+/* {
 outline: 1px dotted lime;
-}
+}*/
 
 
 body {
@@ -15,8 +15,8 @@ body {
 
 
 .header {
-    background-color: aliceblue;
-    color: mediumpurple;
+    background-color: darkslategrey;
+    color: white;
     height: 80px;
     border-bottom: 3px solid white;
 
@@ -50,7 +50,26 @@ text-decoration: none;
     
 }
 
+.banner {
+background-color: aliceblue;
+padding: 20px 0;
+text-align: center;
+}
 
+.banner img {
+max-width: 780px;
+width: 90%;
+}
+
+.services {
+    background-color: darkslategrey;
+    padding: 20px 0;
+    text-align: center;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: 1fr 1fr 2fr;
+    
+    
+}
 
 
 
