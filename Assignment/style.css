@@ -68,8 +68,8 @@ width: 90%;
 .services {
     background-color: darkslategrey;
     color: aliceblue;
-    padding: 20px 0;
-     height: 400px;
+    padding: 20px;
+     height: 500px;
     
     
 }
@@ -79,8 +79,6 @@ width: 90%;
        display: grid;
    grid-template-columns: repeat(3 1fr);
     grid-template-rows: 1fr 1fr 2fr;
-   margin-left: auto;
-   margin-right: auto;
    max-width: 950px;
 }
 
@@ -88,34 +86,83 @@ width: 90%;
 /* portofolio section starts here*/
 
 .portfolio {
+     display: grid;
+   grid-template-columns: repeat(3 1fr)  ;
+    grid-template-rows:repeat(4 1fr) ;
      background-color: aliceblue;
     color: darkslategrey;
     padding: 20px 0;
-     height: 800px;
+     height: 1000px;
     
 }
 
+.writing {
+    padding: 20px;
+    font-size: 20px;
+}
 
-.content {
+.images img {
+max-width: 400px;
+width: 90%;
+}
+
+
+/*images*/
+
+
+
+/*about section starts here*/
+
+.about {
     display: grid;
-   grid-template-columns: repeat(3 1fr)  ;
-    grid-template-rows:repeat(4 1fr) ;
-  
+    grid-template-columns: 1fr 2fr;
+    background-color: #75aa90;
+    color: aliceblue;
+    margin: 0;
+    height: 600px;
+    
 }
 
-.imagesrow1 {
-    grid-column: 1;
-    grid-row: 1;
+.text {
+    grid-row: 1/2;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.salmon {
+    color: darkslategrey;
+    font-weight: bold;
 }
 
 
+/*how to add image?*/
+.me {
+    grid grid-column: 2/3;
+    max-height: 500px;
+}
 
 
+/*contact section starts here*/
 
 
+.contact {
+    background-color: aliceblue;
+    color: darkslategrey;
+    height: 700px;
+    
+    
+}
 
+.middle {
+    padding: 20px;
+}
 
+/*footer starts here*/
 
+.footer {
+    background-color: darkslategrey;
+    height: 80px;
+}
 
 
 
