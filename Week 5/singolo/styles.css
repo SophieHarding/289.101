@@ -141,18 +141,59 @@ text-decoration: none;
     
 }
         
-   
+.row1 {
+    grid-column: 1;
+}
+
+.row2 {
+    grid-column: 2;
+}
 
 
+/* About us starts here*/
+/* im getting really confused*/
 
+#about us {
+    background-color: white;
+    height: 700px;
+    margin: 0;
+}   
 
-
-
+.heading {
+    color: #666d89;
     
-    
-    
+}
 
+.heading h1 {
+    padding: 40px;
+}
+    
+  
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
 
+.hi {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 20px;
+}
+
+.name1 {
+    font-weight: bold;
+    grid-column: 3;
+    grid-row: 1/2;
+    color: #666d89;
+
+}
+
+.name1 p+p {
+   font-weight: normal;
+    grid-column: 3;
+    grid-row: 1/2;
+}
 
 
 
