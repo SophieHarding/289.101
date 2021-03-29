@@ -2,9 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
-* {
+/* {
 outline: 1px dotted lime;
-}
+}*/
 
 
 body {
@@ -35,34 +35,35 @@ body {
 
 /*need to get links into center*/
 
+
 #header {
     background-color: darkslategrey;
-    color: white;
+    color: aliceblue;
     height: 80px;
-
     border-bottom: 3px solid white;
-     
-
+    margin: 0px;
 }
 
 #nav {
-   margin-left: auto;
-   margin-right: auto;
-   
+    display: grid;
+grid-template-columns: 100px auto;
+    margin-left: auto;
+margin-right: auto;
+max-width: 950px;
 }
 
 .links {
+    
    margin-top: 80px;
    font-size: 1.5rem;
-    color: aliceblue;
-    
+    text-align: center;
 }
 
 
 .links a {
 color: white;
-padding-left: 10px;
-padding-right: 10px;
+padding-left: 40px;
+padding-right:100px;
 text-decoration: none;
 }
 
@@ -168,6 +169,9 @@ width: 70%;
      background-color: #75aa90;
      border: 2px solid white;
 }
+
+
+
 
 /*footer starts here*/
 
