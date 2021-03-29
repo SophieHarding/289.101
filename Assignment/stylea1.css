@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
 
 
-/* {
+* {
 outline: 1px dotted lime;
-}*/
+}
 
 
 body {
@@ -17,7 +17,7 @@ body {
 .header {
     background-color: darkslategrey;
     color: white;
-    height: 80px;
+    height: 180px;
     border-bottom: 3px solid white;
 
 }
@@ -32,7 +32,7 @@ body {
 
 .logo {
     margin-top: 35px;
-   font-size: 1.4rem;
+   font-size: 3rem;
 }
 
 .links a {
@@ -43,13 +43,12 @@ text-decoration: none;
 }
 
 .links {
-   margin-top: 40px;
-   font-size: 0.75rem;
+   margin-top: 80px;
+   font-size: 1.4rem;
    text-align: right;
     color: aliceblue;
     
 }
-
 
 
 .banner {
@@ -59,31 +58,33 @@ text-align: center;
 }
 
 .banner img {
-max-width: 780px;
-width: 90%;
+max-width: 1300px;
+width: 100%;
 }
 
-/* Our Services section starts here*/
+/*ABOUT ME*/
 
-#expertise {
-    background-color: #75aa90;
-    color: aliceblue;
+#äbout-me {
+      background-color: darkslategrey;
+    display: grid;
+    grid-template-columns: 30% 70%;
     padding: 20px;
-     height: 500px;
-    
-    
+  
+}
+
+#text {
+    color: aliceblue;
+    font-size: 25px;
 }
 
 
-.yo {
-       display: grid;
-   grid-template-columns: repeat(3 1fr);
-    grid-template-rows: 1fr 1fr 2fr;
-   max-width: 950px;
+.salmon {
+    color: #75aa90;
+    font-weight: bold;
 }
 
+/*PORTFOLIO*/
 
-/* portofolio section starts here*/
 
 #portfolio {
      display: grid;
@@ -107,66 +108,16 @@ width: 70%;
 }
 
 
-/*images*/
-
-
-
-/*about section starts here*/
-
-#about {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-color: darkslategrey;
-    color: aliceblue;
-    margin: 0;
-    height: 600px;
-    
-}
-
-.text {
-    grid-row: 1/2;
-    padding: 20px;
-    font-size: 22px;
-}
-
-.salmon {
-    color: #75aa90;
-    font-weight: bold;
-}
-
-
-
-/*how to add image?*/
-#me {
-    display: grid;
-    grid grid-column: 2/3;
-    max-height: 500px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-.me img {
-
-    grid-column: 2/3;
-    grid-row: 1/2;
-    
-}
-
-/*contact section starts here*/
-
+/*CONTACT PAGE STARTS HERE*/
 
 #contact {
-
-    background-color: aliceblue;
-    color: darkslategrey;
-    height: 700px; 
-    
-   
-    
+ background-color: darkslategrey ;
+    color: aliceblue;
 }
+
 
 .box {
     display: grid;
-    grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 3fr;
     padding: 20px;
     
@@ -207,9 +158,7 @@ width: 70%;
     padding: 20px;
 }
 
-.instagram img{
 
-}
 
 
 
