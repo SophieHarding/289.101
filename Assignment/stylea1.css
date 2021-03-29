@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
 * {
 outline: 1px dotted lime;
@@ -12,28 +13,51 @@ body {
     font-family: 'Cormorant Unicase', serif;
     
 }
+/*name starts here*/
 
+#name {
+    background-color: aliceblue;
+    color: darkslategrey;
+    height: 80px;
+    border-bottom:3px solid white;
+    margin: 0;
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
 
-.header {
+#name h1 {
+    text-align: center;
+    margin: 20px;
+    
+}
+
+/*links start here*/
+
+/*need to get links into center*/
+
+#header {
     background-color: darkslategrey;
     color: white;
-    height: 180px;
+    height: 80px;
+
     border-bottom: 3px solid white;
+     
 
 }
 
-.nav {
-   display: grid;
-   grid-template-columns: 200px auto;
+#nav {
    margin-left: auto;
    margin-right: auto;
-   max-width: 950px;
+   
 }
 
-.logo {
-    margin-top: 35px;
-   font-size: 3rem;
+.links {
+   margin-top: 80px;
+   font-size: 1.5rem;
+    color: aliceblue;
+    
 }
+
 
 .links a {
 color: white;
@@ -42,14 +66,7 @@ padding-right: 10px;
 text-decoration: none;
 }
 
-.links {
-   margin-top: 80px;
-   font-size: 1.4rem;
-   text-align: right;
-    color: aliceblue;
-    
-}
-
+/*banner starts here*/
 
 .banner {
 background-color: aliceblue;
@@ -94,7 +111,7 @@ width: 100%;
     color: darkslategrey;
     padding: 20px 0;
     margin: 20px;
-     height: 1050px;
+     height: 1400px;
     text-align: center;
     
 }
@@ -107,6 +124,7 @@ width: 100%;
 .images img {
 max-width: 400px;
 width: 70%;
+    padding: 5px;
 }
 
 
@@ -115,6 +133,7 @@ width: 70%;
 #contact {
  background-color: darkslategrey ;
     color: aliceblue;
+   padding: 20px;
 }
 
 
