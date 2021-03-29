@@ -66,7 +66,7 @@ width: 90%;
 /* Our Services section starts here*/
 
 .services {
-    background-color: darkslategrey;
+    background-color: #75aa90;
     color: aliceblue;
     padding: 20px;
      height: 500px;
@@ -103,7 +103,7 @@ width: 90%;
 
 .images img {
 max-width: 400px;
-width: 90%;
+width: 70%;
 }
 
 
@@ -116,7 +116,7 @@ width: 90%;
 .about {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    background-color: #75aa90;
+    background-color: darkslategrey;
     color: aliceblue;
     margin: 0;
     height: 600px;
@@ -130,38 +130,78 @@ width: 90%;
 }
 
 .salmon {
-    color: darkslategrey;
+    color: #75aa90;
     font-weight: bold;
 }
 
 
+
 /*how to add image?*/
-.me {
+#me {
     grid grid-column: 2/3;
     max-height: 500px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
+.me img {
 
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+}
 
 /*contact section starts here*/
 
 
-.contact {
+#contact {
     background-color: aliceblue;
     color: darkslategrey;
     height: 700px;
-    
+    grid-template-rows: 1fr 1fr;
+   
     
 }
 
-.middle {
+.box {
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    grid-template-rows: 2fr;
     padding: 20px;
+    
+}
+
+.box1 {
+    grid-column: 1/2;
+    grid-row: 1;
+    background-color: #75aa90;
+}
+
+.box2 {
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+.box3 {
+    background-color: #75aa90;
+    grid-column: 3/4;
+}
+
+.box4 {
+    grid-row: 4/6;
+    background-color: #75aa90
 }
 
 /*footer starts here*/
 
-.footer {
+#footer {
     background-color: darkslategrey;
     height: 80px;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.instagram {
+    
 }
 
 
