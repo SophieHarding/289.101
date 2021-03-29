@@ -18,7 +18,8 @@ body {
 #name {
     background-color: aliceblue;
     color: darkslategrey;
-    height: 80px;
+    height: 90px;
+     padding-bottom: 20px;
     border-bottom:3px solid white;
     margin: 0;
     font-family: 'Gloria Hallelujah', cursive;
@@ -28,6 +29,7 @@ body {
 #name h1 {
     text-align: center;
     margin: 20px;
+    padding-bottom: 20px;
     
 }
 
@@ -54,7 +56,7 @@ max-width: 950px;
 
 .links {
     
-   margin-top: 80px;
+   margin-top: 110px;
    font-size: 1.5rem;
     text-align: center;
 }
