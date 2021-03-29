@@ -93,7 +93,9 @@ width: 100%;
      background-color: aliceblue;
     color: darkslategrey;
     padding: 20px 0;
-     height: 1000px;
+    margin: 20px;
+     height: 1050px;
+    text-align: center;
     
 }
 
