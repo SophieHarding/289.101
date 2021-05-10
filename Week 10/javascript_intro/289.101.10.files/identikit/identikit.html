@@ -45,6 +45,7 @@
         #mouth {
             position: absolute;
             width: 200px;
+            height: 400px;
             
             
         }
@@ -111,9 +112,9 @@
         
          // move eyes closer together event listener (not finished)
         document.getElementById('eyes_cls_btn').addEventListener('click', () => {
-            eye_left_x -= 10;
+            eye_left_x = -10;
             document.getElementById('eye_left').style.top = eye_left_x + 'px';
-            eye_right_x -= 10;
+            eye_right_x = -10;
             document.getElementById('eye_right').style.top = eye_right_x + 'px';
         });
         
@@ -130,12 +131,25 @@
         var mouth_y = 100;
         
         // set initial positions
-         document.getElementById('mouth').style.left = eye_left_x + 'px';
-        document.getElementById('mouth').style.top = eye_left_y + 'px';
+         document.getElementById('mouth').style.left = mouth_x + 'px';
+        document.getElementById('mouth').style.top = mouth_y + 'px';
         
         //move mouth up event listener
+         document.getElementById('mot_up_btn').addEventListener('click', () => {
+            mouth_y = -10;
+            document.getElementById('mouth').style.top = mouth_y + 'px';
+            
+        });
         
-        //move mouth down event listener
+        
+        //move mouth down event listener (not finished)
+        
+         document.getElementById('mot_dwn_btn').addEventListener('click', () => {
+            mouth_y -= -10;
+            document.getElementById('mouth').style.top = mouth_y + 'px';
+            
+        });
+        
         
         //happy mouth event listener
         
