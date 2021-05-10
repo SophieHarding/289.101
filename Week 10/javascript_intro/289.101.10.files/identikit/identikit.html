@@ -45,6 +45,8 @@
         #mouth {
             position: absolute;
             width: 200px;
+            
+            
         }
     </style>
     
@@ -109,11 +111,39 @@
         
          // move eyes closer together event listener (not finished)
         document.getElementById('eyes_cls_btn').addEventListener('click', () => {
-            eye_left_y -= -10;
-            document.getElementById('eye_left').style.top = eye_left_y + 'px';
-            eye_right_y -= -10;
-            document.getElementById('eye_right').style.top = eye_right_y + 'px';
+            eye_left_x -= 10;
+            document.getElementById('eye_left').style.top = eye_left_x + 'px';
+            eye_right_x -= 10;
+            document.getElementById('eye_right').style.top = eye_right_x + 'px';
         });
+        
+        //move eyes further apart event listener
+        
+        //hollow eyes event listener
+        
+        //solid eyes event listener
+        
+        //no right eye event listener 
+        
+        //coordinate variables
+        var mouth_x = 100;
+        var mouth_y = 100;
+        
+        // set initial positions
+         document.getElementById('mouth').style.left = eye_left_x + 'px';
+        document.getElementById('mouth').style.top = eye_left_y + 'px';
+        
+        //move mouth up event listener
+        
+        //move mouth down event listener
+        
+        //happy mouth event listener
+        
+        //sad mouth event listener
+        
+        //reset event listener
+        
+        
         
     </script>
 
