@@ -111,14 +111,20 @@
         });
         
          // move eyes closer together event listener (not finished)
-        document.getElementById('eyes_cls_btn').addEventListener('click', () => {
-            eye_left_x = -10;
-            document.getElementById('eye_left').style.top = eye_left_x + 'px';
-            eye_right_x = -10;
-            document.getElementById('eye_right').style.top = eye_right_x + 'px';
+      document.getElementById('eyes_cls_btn').addEventListener('click', () => {
+            eye_left_x += 10;   document.getElementById('eye_left').style.left = eye_left_x + 'px';
+            
+            eye_right_x -= 10;  document.getElementById('eye_right').style.left = eye_right_x + 'px';
         });
+      
         
-        //move eyes further apart event listener
+        //move eyes further apart event listener (not working)
+        
+           document.getElementById('eyes_apt_btn').addEventListener('click', () => {
+            eye_left_x -= 10;   document.getElementById('eye_left').style.left = eye_left_x + 'px';
+            
+            eye_right_x += 10;  document.getElementById('eye_right').style.left = eye_right_x + 'px';
+        });
         
         //hollow eyes event listener
         
